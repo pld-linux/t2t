@@ -7,6 +7,7 @@ Release:	1
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.scholnick.net/t2t/%{name}-%{version}.tar.gz
+# Source0-md5:	720651be6a59f637b43337283f7637f3
 URL:		http://www.scholnick.net/t2t/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch

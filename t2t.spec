@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Any delimited text to HTML table converter
-#Summary(pl.UTF-8):	-
+Summary(pl.UTF-8):	Konwerter dowolnego tekstu z separatorami na tabele HTML
 Name:		t2t
 Version:	6.0
 Release:	1
@@ -16,17 +16,21 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 t2t can convert any delimited text file to an HTML table. It supports
 all attributes for the various table-related tags. It can read its
-input either from stdin, a file, or a whole directory. when t2t is
+input either from stdin, a file, or a whole directory. When t2t is
 passed in a directory, it will process all the files (except those
 with either .html or .htm extension), and all the files in all the
 sub-directories. It works on any system with Perl.
 
-#description -l pl.UTF-8
+%description -l pl.UTF-8
+t2t konwertuje dowolne pliki tekstowe z separatorami na tabele HTML.
+Obsługuje wszystkie atrybuty dla różnych znaczników związanych z
+tabelami. Może czytać ze standardowego wejścia, z pliku lub całego
+katalogu. W tym ostatnim przypadku przetwarza wszystkie pliki (poza
+mającymi już rozszerzenie .html lub .htm) oraz wszystkie pliki z
+podkatalogów. Działa na dowolnym systemie z interpreterem Perla.
 
 %prep
 %setup -q
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT

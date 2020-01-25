@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Any delimited text to HTML table converter
 Summary(pl.UTF-8):	Konwerter dowolnego tekstu z separatorami na tabele HTML
 Name:		t2t

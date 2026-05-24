@@ -2,7 +2,7 @@ Summary:	Any delimited text to HTML table converter
 Summary(pl.UTF-8):	Konwerter dowolnego tekstu z separatorami na tabele HTML
 Name:		t2t
 Version:	6.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.scholnick.net/t2t/%{name}-%{version}.tar.gz
